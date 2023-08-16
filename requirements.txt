@@ -1,0 +1,11 @@
+ffta==0.3.5.1
+sidpy>=0.0.5
+matplotlib==3.7.1
+mpld3==0.5.9
+numpy==1.23.5
+pandas==1.5.3
+plotly==5.15.0
+scipy==1.10.1
+setuptools==67.8.0
+streamlit==1.23.1
+git+https://github.com/Creasiion/trEFM_Analysis/
