@@ -1,4 +1,5 @@
 ffta==0.3.5.1
+sidpy>=0.0.5
 matplotlib==3.7.1
 mpld3==0.5.9
 numpy==1.23.5
