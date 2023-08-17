@@ -1,4 +1,4 @@
-ffta==0.3.5.1
+git+https://github.com/rajgiriUW/FFTA
 sidpy<=0.12.0
 igor2>=0.5.2
 matplotlib==3.7.1
