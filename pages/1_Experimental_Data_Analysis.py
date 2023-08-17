@@ -15,7 +15,7 @@ import ffta
 from ffta.simulation.mechanical_drive import MechanicalDrive
 from ffta.simulation.utils import excitation
 from Functions import defaults, plot_deflection, crop_data, normalize_data, plot_inst_freq
-import igor.binarywave as bw
+import igor2.binarywave as bw
 
 plt.rc('font', size=16)
 
