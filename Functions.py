@@ -22,61 +22,59 @@ def defaults():
     Sets the default value for cantilever dictionaries of Simulation and Calibration Curve pages.
 
     '''
-        st.session_state['cantilever_dict'] = {
-            'amp_invols':1.15821e-07,
-            'def_invols':1.15821e-07,
-            'soft_amp':0.3,
-            'drive_freq':279173,
-            'res_freq':279173,
-            'k':20,
-            'q_factor':450
-            }
-
-        st.session_state['force_dict'] = {
-            'es_force':3.72358e-08,
-            'delta_freq':-170, 
-            'tau':50e-6
-            }
-        st.session_state['simulation_dict'] = {
-            'trigger':0.0004,
-            'total_time':0.002,
-            'sampling_rate':1e7
-            }
-        st.session_state['others'] = {
-            'beta':0.4,
-            'tau_stretched':50e-6,
-            'exponential_type':'Single Exponential',
-            'tau1':50e-6,
-            'tau2':500e-6
-            }
-        st.session_state['CC_cantilever_dict'] = {
-            'amp_invols':1.15821e-07,
-            'def_invols':1.15821e-07,
-            'soft_amp':0.3,
-            'drive_freq':279173,
-            'res_freq':279173,
-            'k':20,
-            'q_factor':450
-            }
-
-        st.session_state['CC_force_dict'] = {
-            'es_force':3.72358e-08,
-            'delta_freq':-170, 
-            'tau':50e-6
-            }
-        st.session_state['CC_simulation_dict'] = {
-            'trigger':0.0004,
-            'total_time':0.002,
-            'sampling_rate':1e7
-            }
-        st.session_state['CC_others'] = {
-            'beta':0.4,
-            'tau_stretched':50e-6,
-            'exponential_type':'Single Exponential',
-            'tau1':50e-6,
-            'tau2':500e-6
-            }
-        st.session_state['Tfp_Data_Analysis'] = None
+    st.session_state['cantilever_dict'] = {
+        'amp_invols':1.15821e-07,
+        'def_invols':1.15821e-07,
+        'soft_amp':0.3,
+        'drive_freq':279173,
+        'res_freq':279173,
+        'k':20,
+        'q_factor':450
+        }
+    st.session_state['force_dict'] = {
+        'es_force':3.72358e-08,
+        'delta_freq':-170, 
+        'tau':50e-6
+        }
+    st.session_state['simulation_dict'] = {
+        'trigger':0.0004,
+        'total_time':0.002,
+        'sampling_rate':1e7
+        }
+    st.session_state['others'] = {
+        'beta':0.4,
+        'tau_stretched':50e-6,
+        'exponential_type':'Single Exponential',
+        'tau1':50e-6,
+        'tau2':500e-6
+        }
+    st.session_state['CC_cantilever_dict'] = {
+        'amp_invols':1.15821e-07,
+        'def_invols':1.15821e-07,
+        'soft_amp':0.3,
+        'drive_freq':279173,
+        'res_freq':279173,
+        'k':20,
+        'q_factor':450
+        }
+    st.session_state['CC_force_dict'] = {
+        'es_force':3.72358e-08,
+        'delta_freq':-170, 
+        'tau':50e-6
+        }
+    st.session_state['CC_simulation_dict'] = {
+        'trigger':0.0004,
+        'total_time':0.002,
+        'sampling_rate':1e7
+        }
+    st.session_state['CC_others'] = {
+        'beta':0.4,
+        'tau_stretched':50e-6,
+        'exponential_type':'Single Exponential',
+        'tau1':50e-6,
+        'tau2':500e-6
+        }
+    st.session_state['Tfp_Data_Analysis'] = None
 
 def update_dict(dict_name, key):
     '''
