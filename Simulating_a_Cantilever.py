@@ -34,7 +34,7 @@ with st.sidebar:
     for key in other_parms:
         st.session_state[key] = other_parms[key]
         
-    exponential_type = st.selectbox('', ('Single Exponential','Stretched Exponential', 'Bi Exponential'), key='exponential_type', on_change=update_dict, args=['others', 'exponential_type'])
+    exponential_type = st.selectbox('Exponential Type', ('Single Exponential','Stretched Exponential', 'Bi Exponential'), key='exponential_type', on_change=update_dict, args=['others', 'exponential_type'])
     
     if other_parms['exponential_type'] == 'Stretched Exponential':
         beta = st.number_input('Beta', key='beta',on_change=update_dict, args=['others', 'beta'], format='%f')
